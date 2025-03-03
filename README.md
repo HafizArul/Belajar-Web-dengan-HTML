@@ -1,30 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Membuat Tabel pada HTML</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <style>
-            * {
-                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            #tabel1 tr td {
-                border: 1.5px solid black;
-                width: 100px;
-                height: 60px;
-                padding: 5px;
-            }
-            textarea {
-                width: 235px;
-                height: 150px;
-            }
-            p {
-                text-indent: 7%;
-                text-align: justify;
-                padding-left: 10px;
-                width: 70%;
-            }
-        </style>
-    </head>
     <body>
         <h2>Daftar Isi Web</h2>
         <ul>
@@ -57,8 +32,7 @@
                 <td>4,4</td>
             </tr>
         </table>
-        <br><br>
-        <h3 id="form_tabel">Form dengan Tabel</h3>
+        <h2 id="form_tabel">Form dengan Tabel</h2>
         <form>
             <table>
                 <tr>
